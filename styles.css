@@ -37,15 +37,14 @@ p {
 
 .image-gallery {
     display: flex;
-    max-width: 1024px;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .gallery-img {
     display: none;
-    /*max-width: 600px;*/
-    height: auto;
+    max-height: 600px;
     image-rendering: -webkit-optimize-contrast;
     padding: 20px;
 }
