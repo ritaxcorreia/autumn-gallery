@@ -35,9 +35,16 @@ p {
     margin: 20px;
 }
 
+.image-gallery {
+    display: flex;
+    max-width: 1024px;
+    justify-content: center;
+    align-items: center;
+}
+
 .gallery-img {
     display: none;
-    max-width: 600px;
+    /*max-width: 600px;*/
     height: auto;
     image-rendering: -webkit-optimize-contrast;
     padding: 20px;
@@ -45,13 +52,6 @@ p {
 
 .active {
     display: block;
-}
-
-.image-gallery {
-    max-width: 1024px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .btns {
